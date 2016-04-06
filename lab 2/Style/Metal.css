@@ -1,0 +1,19 @@
+body{
+	background-color:red;
+	width:300 px;
+	
+}
+aside { 
+    display: block;
+}
+
+	section {
+  float: left;
+  margin: 0 2.5%;
+  width: 63%;
+}
+aside {
+  float: right;
+  margin: 5.5%;
+  width: 50%0%;
+}
