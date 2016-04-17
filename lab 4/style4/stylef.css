@@ -17,8 +17,20 @@ button{
 p{
 	color:white;
 }
-button{
-	float:right-side;
+p.sale{
+	background-color:black; height:400px; width:300px; font-family: "Arial black", Helvetica, sans-serif;
+  font-size: 200%; 
 }
-	
+p.new{
+	background-color:black; height:400px; width:300px; font-family: "Arial black", Helvetica, sans-serif;
+  font-size: 200%; 
+}
+p.Best{
+	background-color:black; height:400px; width:300px; font-family: "Arial black", Helvetica, sans-serif;
+  font-size: 200%; 
+}
+aside{
+	background-color:black; 
+   float:left-side;
+}
 	
