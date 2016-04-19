@@ -18,19 +18,23 @@ p{
 	color:white;
 }
 p.sale{
-	background-color:black; height:400px; width:300px; font-family: "Arial black", Helvetica, sans-serif;
-  font-size: 200%; 
+	background-color:black; height:320px; width:220px; font-family: "Arial black", Helvetica, sans-serif;
+  font-size: 100%; text-align:center;
 }
 p.new{
-	background-color:black; height:400px; width:300px; font-family: "Arial black", Helvetica, sans-serif;
-  font-size: 200%; 
+	background-color:black; height:320px; width:220px; font-family: "Arial black", Helvetica, sans-serif;
+  font-size: 100%; text-align:center;
 }
 p.Best{
-	background-color:black; height:400px; width:300px; font-family: "Arial black", Helvetica, sans-serif;
-  font-size: 200%; 
+	background-color:black; height:320px; width:220px; font-family: "Arial black", Helvetica, sans-serif;
+  font-size: 100%; text-align:center;
 }
-aside{
-	background-color:black; 
-   float:left-side;
+p.Aside{
+	background-color:black; height:400px; width:270px; font-family: "Arial black", Helvetica, sans-serif;
+  font-size: 200%; text-align:center;
 }
-	
+
+footer{
+	background-color:black; height:70px; width:70px; font-family: "Arial black", Helvetica, sans-serif;
+  font-size: 80%; 
+  }	
