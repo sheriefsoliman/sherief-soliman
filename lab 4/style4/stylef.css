@@ -9,7 +9,7 @@ h1{
   font-size: 400%;
 }
 nav{
-	background-color:black; color:white; 
+	background-color:gray; color:white; 
 }
 button{
 	background-color:black;
@@ -18,15 +18,15 @@ p{
 	color:white;
 }
 p.sale{
-	background-color:black; height:320px; width:220px; font-family: "Arial black", Helvetica, sans-serif;
+	background-color:black; height:350px; width:250px; font-family: "Arial black", Helvetica, sans-serif;
   font-size: 100%; text-align:center; 
 }
 p.new{
-	background-color:black; height:320px; width:220px; font-family: "Arial black", Helvetica, sans-serif;
+	background-color:black; height:350px; width:250px; font-family: "Arial black", Helvetica, sans-serif;
   font-size: 100%; text-align:center;
 }
 p.Best{
-	background-color:black; height:320px; width:220px; font-family: "Arial black", Helvetica, sans-serif;
+	background-color:black; height:350px; width:250px; font-family: "Arial black", Helvetica, sans-serif;
   font-size: 100%; text-align:center;
 }
 p.Aside{
@@ -38,14 +38,31 @@ footer{
 	background-color:black; height:70px; width:70px; font-family: "Arial black", Helvetica, sans-serif;
   font-size: 80%; 
   }	
-button{ 
+header button{ 
          position:relative;
          top:2px;
-         left:30px;	
+         left:65px;	
          margin-bottom:4px;
 		 margin-top:4px;
 } 
+footer button{
+	margin-top:8px;
+}
 form{
 		margin-top:5px;
+}
+table{background-color:black; height:380px; width:280px; font-family: "Arial black", Helvetica, sans-serif;
+  font-size: 100%; text-align:center; margin-bottom:20px;
+	
+}
+h3{font-family: "Arial black", Helvetica, sans-serif;
+   font-size: 200%; text-align:center; background-color:black; color:white;
+   height:20px; width:280px; margin-bottom:0px;
+	
+}
+h4{font-family: "Arial black", Helvetica, sans-serif;
+   font-size: 100%; text-align:center; background-color:black; color:Red;
+   height:20px; width:280px; margin-bottom:0px;
+	
 }
          		 
