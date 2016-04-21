@@ -58,11 +58,65 @@
      <article class="container">
        <div class="row">
 	    <div class="col-lg-6">
-		<table id="varukorg">
+		<table id="items">
+		<tr>
+		<h3>My Items</h3>
+		<td>
+<figure>
+		<img src="../pic4/game1.jpg" alt="Mariokart" title="Game">
+		<button>X</button>
+	<p>
+        <figcaption>
+       Price: 500 sek
+        <p>Amount
+        <input type"text" name="Ammount" size="1" maxlength="1"/>
+        </p>
+        </figcaption>
+    </p>
+</figure>
+        </td>
+<td>
+<figure>
+		<img src="../pic4/game2.jpg" alt="Mariokart" title="Game">
+		<button>X</button>
+	<p>
+        <figcaption>
+       Price: 400 sek
+        <p>Amount
+        <input type"text" name="Ammount" size="1" maxlength="1"/>
+        </p>
+        </figcaption>
+    </p>
+</figure>
+        </td>		
 		</table>
 		</div>
 		<div class="col-lg-6">
 		<table id="varukorg">
+		<tr>
+		<h5>Customer Information</h5>
+		<td>
+		<fieldset>
+		<label>Name:</br>
+		<input type="text" name="name" /> </label> </br>
+		<label>Personal Number:</br>
+		<input type="text" name="number" /> </label> </br>
+		<label>Address:</br>
+		<input type="text" name="Address" /> </label> </br>
+		<label>Mobile Number:</br>
+		<input type="text" name="Mob" /> </label> </br>
+		<label>Payment Method:</br>
+		<input id="card" type="radio" name="pay" value="c"> 
+		<label for="card">CARD</label>
+		<input id="Paypal" type="radio" name="pay" value="P"> 
+		<label for="card">Paypal</label>
+		<input id="Invoice" type="radio" name="pay" value="I"> 
+		<label for="card">Invoice</label>
+		</label> 
+		</br>
+		<label>Card Number:</br>
+		<input type="text" name="card" /> </label> </br>
+		<button>Confirm</button>
 		</table>
 		</div>
 </article>		
